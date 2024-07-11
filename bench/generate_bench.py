@@ -49,6 +49,10 @@ initial begin
     {rst} = 0;
 
     // Add stimulus here
+    #10 address = 64'h0000000000000001;
+    #10 address = 64'h0000000000000002;
+    #10 address = 64'hFFFFFFFFFFFFFFFF;
+    #10 address = 64'h1234567890ABCDEF;
 
 end
 
