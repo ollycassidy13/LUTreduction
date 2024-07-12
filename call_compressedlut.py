@@ -4,7 +4,7 @@ import re
 
 #leaves only the smallest verilog file for each LUT
 def clean_compressresult_folder():
-    compressresult_dir = os.path.join(os.path.dirname(__file__), 'compressresult2')
+    compressresult_dir = os.path.join(os.path.dirname(__file__), 'compressresult')
 
     if not os.path.exists(compressresult_dir):
         print(f"Directory '{compressresult_dir}' does not exist.")
